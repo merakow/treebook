@@ -14,14 +14,18 @@
 				<a href="#" class="brand"> Treebook</a>
 				<ul class="nav">
 					<li><%= link_to "All Statuses", statuses_path %></li>
-			</div> <!-- closing container -->
-		</div> <!-- closing navbar-inner --> 
-	</div> <!-- closing navbar -->
+				</div> <!-- closing container -->
+			</div> <!-- closing navbar-inner --> 
+		</div> <!-- closing navbar -->
 
 
-	<div class="container">
-		<%= yield %>
-	</div> <!-- closing container -->
+		<div class="container">
+			<p class="notice"><%= notice %></p>
+			<p class="alert"><%= alert %></p>
 
-</body>
-</html>
+			<%= yield %>
+			
+		</div> <!-- closing container -->
+
+	</body>
+	</html>
