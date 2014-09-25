@@ -3,8 +3,14 @@ mark:
   last_name: "Rakow"
   email: "merakow@gmail.com"
   profile_name: "merakow"
-  encrypted_password: "testpassword"
+  #encrypted_password: "testpassword"
   # password_confirmation: "testpassword"
+
+jojo:
+  first_name: "Jojo"
+  last_name: "Jobowski"
+  email: "jjobowski@sample.com"
+  profile_name: "JoJobowski"
 
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
