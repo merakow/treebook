@@ -6,8 +6,12 @@ gem 'rails', '4.1.4'
 
 # Use sqlite3 as the database for Active Record
 # gem 'sqlite3'
-group :developemnt, :test do
+group :development, :test do
 	gem 'sqlite3'
+end
+
+group :production do
+	gem 'pg'
 end
 
 # Use SCSS for stylesheets
