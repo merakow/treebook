@@ -11,7 +11,9 @@ group :development, :test do
 end
 
 group :production do
+	ruby '2.1.2'
 	gem 'pg'
+	gem 'rails_12factor'
 end
 
 # Use SCSS for stylesheets
